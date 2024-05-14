@@ -97,8 +97,9 @@ button:hover {
 }
 /* Estilos para la lista de ingredientes */
 .ingredientesReceta {
-  padding: 0;
-  margin: 0;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 2px;
   padding-left: 20px;
 }
 
@@ -123,9 +124,45 @@ button:hover {
   line-height: 1.5;
 }
 
-.bottonMinimizar {
-  position: absolute;
-  margin: 6px;
+.tituloTarjeta {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottonMinimizar,
+.meGusta,
+.idReceta,
+h3 {
+  font-size: medium;
+  color: #333;
+  font-weight: bold;
+  margin: 3px;
+  align-content: center;
+}
+
+.idReceta {
+  border: 1px dashed;
+  padding: 6px;
+  background-color: #ffca28;
+  border-radius: 5px;
+}
+
+.categoria {
+  margin: 2px;
+  border: 1px dashed;
+  padding: 6px;
+  background-color: #fbff2844;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.imagenComida {
+    width: 75%;
+    width: 100%; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto; /* Para mantener la proporción de aspecto */
+    display: block; /* Para asegurar que la imagen se muestre como un bloque */
+    border-radius: 5px; /* Añade esquinas redondeadas */
+    object-fit: cover;
 }
 
 /* Estilos para dispositivos móviles */

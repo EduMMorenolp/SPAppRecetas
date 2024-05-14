@@ -31,15 +31,50 @@ function mostrarRecetas(recetas) {
         tarjetaReceta.classList.add('tarjetaReceta');
         listaRecetas.appendChild(tarjetaReceta);
 
+        const tituloTarjeta = document.createElement('div');
+        tituloTarjeta.classList.add('tituloTarjeta')
+        tarjetaReceta.appendChild(tituloTarjeta);
+
         const botonMin = document.createElement('button');
-        botonMin.textContent = "+";
+        botonMin.textContent = " + ";
         botonMin.classList.add('bottonMinimizar');
-        tarjetaReceta.appendChild(botonMin);
+        tituloTarjeta.appendChild(botonMin);
 
         const nombreReceta = document.createElement('h3');
         nombreReceta.textContent = receta.nombre;
         nombreReceta.classList.add('nombreReceta');
-        tarjetaReceta.appendChild(nombreReceta);
+        tituloTarjeta.appendChild(nombreReceta);
+
+        const meGusta = document.createElement('button');
+        meGusta.textContent = "❤️";
+        meGusta.classList.add('meGusta');
+        tituloTarjeta.appendChild(meGusta);
+
+        const idReceta = document.createElement('p');
+        idReceta.textContent = "N° " + receta.id;
+        idReceta.classList.add('idReceta');
+        tituloTarjeta.appendChild(idReceta);
+
+        const categoria = document.createElement('p');
+        categoria.textContent = receta.categoria;
+        categoria.classList.add('categoria');
+        tarjetaReceta.appendChild(categoria);
+
+        const imagen = document.createElement('img');
+        imagen.src = receta.imagen;
+        imagen.classList.add('imagenComida');
+        
+        // Agregar un event listener para el evento load
+        imagen.addEventListener('load', function () {
+            console.log('La imagen se cargó correctamente');
+        });
+
+        // Agregar un event listener para el evento error
+        imagen.addEventListener('error', function () {
+            console.log('Hubo un error al cargar la imagen');
+            this.src = './img/recetas/vacio.png'; 
+        });
+        tarjetaReceta.appendChild(imagen);
 
         const ingredientesReceta = document.createElement('ul');
         ingredientesReceta.classList.add('ingredientesReceta');
