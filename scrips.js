@@ -143,11 +143,6 @@ async function mostrarRecomendacion(recetasPromise) {
             tituloTarjeta.classList.add('tituloTarjeta')
             tarjetaReceta.appendChild(tituloTarjeta);
 
-            const botonMin = document.createElement('button');
-            botonMin.textContent = " + ";
-            botonMin.classList.add('bottonMinimizar');
-            tituloTarjeta.appendChild(botonMin);
-
             const nombreReceta = document.createElement('h3');
             nombreReceta.textContent = receta.nombre;
             nombreReceta.classList.add('nombreReceta');
@@ -157,11 +152,6 @@ async function mostrarRecomendacion(recetasPromise) {
             meGusta.textContent = "❤️";
             meGusta.classList.add('meGusta');
             tituloTarjeta.appendChild(meGusta);
-
-            const idReceta = document.createElement('p');
-            idReceta.textContent = "N° " + receta.id;
-            idReceta.classList.add('idReceta');
-            tituloTarjeta.appendChild(idReceta);
 
             const categoria = document.createElement('p');
             categoria.textContent = receta.categoria;
@@ -192,15 +182,6 @@ async function mostrarRecomendacion(recetasPromise) {
                 ingredientesReceta.appendChild(ingredienteItem);
             });
             tarjetaReceta.appendChild(ingredientesReceta);
-
-            const pasosReceta = document.createElement('ol');
-            pasosReceta.classList.add('pasosReceta');
-            receta.pasos.forEach((paso, index) => {
-                const pasoItem = document.createElement('li');
-                pasoItem.textContent = `${paso}`;
-                pasosReceta.appendChild(pasoItem);
-            });
-
             // Agregar la tarjeta de receta al contenedor principal
             miRecetaDiv.appendChild(tarjetaReceta);
         });
