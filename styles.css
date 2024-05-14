@@ -196,6 +196,16 @@ h3 {
     width: 100%;
     margin-bottom: 10px;
   }
+  
+  #listaRecomendaciones {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+
+  #listaRecomendaciones ul {
+    display: none;
+  }
+  
 }
 
 /* Estilos para tablets y dispositivos de tamaño mediano */
