@@ -13,7 +13,8 @@ El buscador de recetas es una aplicación web para buscar, explorar y mostrar re
 ## Uso Online 
 Para ejecutar este proyecto online, sigue estos pasos:
 
-0. Ingresa desde el Link Web : https://edummorenolp.github.io/SPAppRecetas/ 
+0. Ingresa desde el Link Web
+    ==> https://edummorenolp.github.io/SPAppRecetas/ 
 
 ## Uso
 Para ejecutar este proyecto localmente, sigue estos pasos:
