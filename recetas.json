@@ -1,0 +1,124 @@
+{
+    "recetas": [
+      {
+        "id": 1,
+        "nombre": "Espaguetis a la Boloñesa",
+        "categoria": "Pasta",
+        "imagen": "https://ejemplo.com/imagen1.jpg",
+        "ingredientes": [
+          "250g de espaguetis",
+          "300g de carne picada",
+          "1 cebolla",
+          "2 dientes de ajo",
+          "400g de tomate triturado",
+          "Orégano al gusto",
+          "Sal y pimienta al gusto"
+        ],
+        "pasos": [
+          "Cocina los espaguetis según las instrucciones del paquete.",
+          "En una sartén grande, sofríe la cebolla y el ajo picados hasta que estén dorados.",
+          "Añade la carne picada y cocina hasta que esté dorada.",
+          "Incorpora el tomate triturado y sazona con orégano, sal y pimienta.",
+          "Cocina a fuego lento durante 20 minutos.",
+          "Sirve la salsa boloñesa sobre los espaguetis cocidos y disfruta."
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Ensalada César",
+        "categoria": "Ensaladas",
+        "imagen": "https://ejemplo.com/imagen2.jpg",
+        "ingredientes": [
+          "Lechuga romana",
+          "Pechuga de pollo a la parrilla",
+          "Queso parmesano rallado",
+          "Pan tostado en cubitos",
+          "Aderezo César"
+        ],
+        "pasos": [
+          "Lava y corta la lechuga romana en trozos pequeños.",
+          "Corta la pechuga de pollo en tiras y ásala a la parrilla.",
+          "En un tazón grande, mezcla la lechuga, el pollo, el queso parmesano y los cubitos de pan tostado.",
+          "Añade el aderezo César y mezcla bien.",
+          "Sirve y disfruta de esta deliciosa ensalada."
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Sopa de Tomate",
+        "categoria": "Sopas",
+        "imagen": "https://ejemplo.com/imagen3.jpg",
+        "ingredientes": [
+          "1kg de tomates maduros",
+          "1 cebolla",
+          "2 dientes de ajo",
+          "1 zanahoria",
+          "1 pimiento rojo",
+          "500ml de caldo de verduras",
+          "Aceite de oliva virgen extra",
+          "Sal y pimienta al gusto",
+          "Albahaca fresca para decorar"
+        ],
+        "pasos": [
+          "Pela y trocea los tomates, la cebolla, el ajo, la zanahoria y el pimiento.",
+          "En una olla grande, calienta un poco de aceite de oliva y sofríe la cebolla y el ajo hasta que estén dorados.",
+          "Añade la zanahoria y el pimiento y cocina por unos minutos más.",
+          "Incorpora los tomates troceados y cocina durante 10 minutos.",
+          "Añade el caldo de verduras, sazona con sal y pimienta, y cocina a fuego lento durante 20 minutos más.",
+          "Usa una batidora de mano para triturar la sopa hasta que quede suave y sin grumos.",
+          "Sirve caliente, decorada con albahaca fresca."
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Tacos de Pollo",
+        "categoria": "Platos Principales",
+        "imagen": "https://ejemplo.com/imagen4.jpg",
+        "ingredientes": [
+          "Tortillas de maíz",
+          "Pechuga de pollo",
+          "Cebolla",
+          "Pimiento",
+          "Tomate",
+          "Aguacate",
+          "Cilantro fresco",
+          "Jugo de limón",
+          "Sal y pimienta al gusto"
+        ],
+        "pasos": [
+          "Corta la pechuga de pollo en tiras y sazona con sal y pimienta.",
+          "En una sartén, cocina el pollo hasta que esté dorado y cocido por completo.",
+          "Corta la cebolla, el pimiento, el tomate y el aguacate en cubitos.",
+          "Calienta las tortillas de maíz en una sartén o en el microondas.",
+          "Rellena las tortillas con el pollo cocido, las verduras cortadas, el cilantro fresco y un chorrito de jugo de limón.",
+          "Sirve los tacos calientes y disfruta con tus acompañantes favoritos."
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Pastel de Chocolate",
+        "categoria": "Postres",
+        "imagen": "https://ejemplo.com/imagen5.jpg",
+        "ingredientes": [
+          "200g de chocolate negro",
+          "200g de mantequilla",
+          "200g de azúcar",
+          "4 huevos",
+          "100g de harina de trigo",
+          "1 cucharadita de esencia de vainilla",
+          "1 pizca de sal",
+          "Azúcar glas para decorar"
+        ],
+        "pasos": [
+          "Precalienta el horno a 180°C y engrasa un molde para pastel.",
+          "Derrite el chocolate y la mantequilla en un recipiente grande al baño María o en el microondas.",
+          "Añade el azúcar y mezcla bien.",
+          "Incorpora los huevos uno a uno, batiendo bien después de cada adición.",
+          "Añade la harina, la esencia de vainilla y la sal, y mezcla hasta obtener una masa homogénea.",
+          "Vierte la masa en el molde preparado y hornea durante 25-30 minutos, o hasta que un palillo insertado en el centro salga limpio.",
+          "Deja enfriar el pastel antes de desmoldar y decorar con azúcar glas."
+        ]
+      }
+    ]
+  }
+  

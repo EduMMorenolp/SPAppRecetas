@@ -1,0 +1,125 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 a {
+  text-decoration: none;
+  color: beige;
+}
+
+h1 a:hover {
+  color: #ffc107;
+}
+
+header,
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffc107;
+}
+
+main {
+  padding: 20px;
+}
+
+#buscarReceta {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffca28;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 600px) {
+  header {
+    text-align: center;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  #buscarReceta {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Estilos para tablets y dispositivos de tamaño mediano */
+@media (min-width: 601px) and (max-width: 1024px) {
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+}
+
+/* Estilos para dispositivos de pantalla grande */
+@media (min-width: 1025px) {
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+}
+
+/* Estilos para el enlace "Mis Recetas" */
+#misRecetas {
+  margin: 10px;
+}
+
+#misRecetas a {
+  text-decoration: none;
+  color: #333;
+  background-color: #ffc107;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#misRecetas a:hover {
+  background-color: #ffca28;
+}
