@@ -10,6 +10,13 @@ h1 a {
   color: beige;
 }
 
+h2 {
+  background-color: antiquewhite;
+  border-radius: 30px;
+  text-align: center;
+  padding: 5px;
+}
+
 h1 a:hover {
   color: #ffc107;
 }
@@ -75,6 +82,11 @@ button:hover {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   margin-top: 20px;
+}
+
+#listaRecomendaciones {
+  display: flex;
+  gap: 20px;
 }
 
 /* Estilos para la tarjeta de receta */
