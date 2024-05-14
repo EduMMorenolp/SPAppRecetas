@@ -157,12 +157,12 @@ h3 {
 }
 
 .imagenComida {
-    width: 75%;
-    width: 100%; /* Ajusta el ancho de la imagen según sea necesario */
-    height: auto; /* Para mantener la proporción de aspecto */
-    display: block; /* Para asegurar que la imagen se muestre como un bloque */
-    border-radius: 5px; /* Añade esquinas redondeadas */
-    object-fit: cover;
+  width: 75%;
+  width: 100%; /* Ajusta el ancho de la imagen según sea necesario */
+  height: auto; /* Para mantener la proporción de aspecto */
+  display: block; /* Para asegurar que la imagen se muestre como un bloque */
+  border-radius: 5px; /* Añade esquinas redondeadas */
+  object-fit: cover;
 }
 
 /* Estilos para dispositivos móviles */
@@ -219,4 +219,49 @@ h3 {
 
 #misRecetas a:hover {
   background-color: #ffca28;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-contenido {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-seccion {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.footer-seccion h4 {
+  margin-bottom: 10px;
+}
+
+.footer-seccion ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-seccion ul li {
+  margin-bottom: 5px;
+}
+
+.footer-seccion ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.footer-seccion ul li a:hover {
+  color: #ffc107;
+}
+
+.derechos {
+  margin-top: 20px;
 }
