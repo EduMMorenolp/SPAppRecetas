@@ -20,11 +20,11 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 
 1. Clona este repositorio en tu máquina local:
 
-'''
+```bash
 
-git clone https://github.com/EduMMorenolp/SPAppRecetas
+git clone https://github.com/EduMMorenolp/SPAppRecetas.git
 
-'''
+```
 
 2. Abre el archivo index.html en tu navegador web.
 
