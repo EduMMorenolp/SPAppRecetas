@@ -31,6 +31,7 @@ async function procesarRecetas() {
 // Función para mostrar las recetas en Recetas
 async function mostrarRecetas(recetasPromise) {
     const miRecetaDiv = document.getElementById('listaRecetas');
+
     try {
         const recetas = await recetasPromise;
         recetas.forEach(receta => {
@@ -201,10 +202,12 @@ function botonesCorazon(html) {
                 recetasFavoritas.push(idReceta);
                 localStorage.setItem('recetasFavoritas', JSON.stringify(recetasFavoritas));
                 console.log("Se agregó la receta con id " + idReceta + " a las recetas favoritas.");
+                boton.style.backgroundColor = "green"
             } else {
                 recetasFavoritas.splice(index, 1);
                 localStorage.setItem('recetasFavoritas', JSON.stringify(recetasFavoritas));
                 console.log("Se eliminó la receta con id " + idReceta + " de las recetas favoritas.");
+                boton.style.backgroundColor = "red"
             }
         });
     });
