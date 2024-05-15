@@ -206,23 +206,16 @@ function botonesCorazon(html) {
                 localStorage.setItem('recetasFavoritas', JSON.stringify(recetasFavoritas));
                 console.log("Se eliminó la receta con id " + idReceta + " de las recetas favoritas.");
             }
-
-            await actualizarRecetasFavoritas();
         });
     });
 }
 
-async function actualizarRecetasFavoritas() {
-    await mostrarMisRecetasFavoritas();
-}
-
 // Función para mostrar las recetas favoritas en la sección "Mis Recetas"
-async function mostrarMisRecetasFavoritas(recetasPromise) {
+async function mostrarMisRecetasFavoritas() {
     try {
         const recetasFavoritasIds = JSON.parse(localStorage.getItem('recetasFavoritas')) || [];
 
         const todasLasRecetas = await cargarRecetas();
-
 
         const miRecetaDiv = document.getElementById('miReceta');
 
@@ -292,10 +285,9 @@ async function mostrarMisRecetasFavoritas(recetasPromise) {
             tarjetaReceta.appendChild(ingredientesReceta);
             tarjetaReceta.appendChild(pasosReceta);
             miRecetaDiv.appendChild(tarjetaReceta);
-
-            // Botones Corazon 
-            botonesCorazon(miRecetaDiv)
         });
+        // Botones Corazon 
+        botonesCorazon(miRecetaDiv)
     } catch (error) {
         console.error('Error al mostrar las recetas favoritas:', error);
     }
