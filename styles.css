@@ -207,8 +207,12 @@ h3 {
     margin: 0;
   }
 
-  nav ul{
+  #recetas .tarjetaReceta ul {
+    display: none;
+  }
 
+  #recetas .tarjetaReceta ol {
+    display: none;
   }
 
   #buscarReceta {
@@ -232,6 +236,8 @@ h3 {
     display: inline;
     margin-right: 10px;
   }
+
+
 }
 
 /* Estilos para dispositivos de pantalla grande */
@@ -239,6 +245,10 @@ h3 {
   nav ul li {
     display: inline;
     margin-right: 20px;
+  }
+
+  #recetas .tarjetaReceta ol {
+    display: none;
   }
 }
 
